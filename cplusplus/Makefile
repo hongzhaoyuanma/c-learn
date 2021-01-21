@@ -1,8 +1,6 @@
-OUTPUT = main
+hello:cplusplus.cpp
+	gcc cplusplus.cpp -o hello
 
-cplusplus:$(OBJS)
-	gcc10 -o cplusplus $(OBJS)
-	main cplusplus.cpp
-
+.PHONY:clean
 clean:
-	rm cplusplus:$(OBJS)
+	-rm 
