@@ -1,8 +1,8 @@
 OUTPUT = main
 
 cplusplus:$(OBJS)
-gcc10 -o cplusplus $(OBJS)
-main cplusplus.cpp
+	gcc10 -o cplusplus $(OBJS)
+	main cplusplus.cpp
 
 clean:
-rm cplusplus:$(OBJS)
+	rm cplusplus:$(OBJS)
