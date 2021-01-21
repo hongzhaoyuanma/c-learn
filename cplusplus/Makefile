@@ -1,5 +1,5 @@
 hello:cplusplus.cpp
-	gcc cplusplus.cpp -o hello
+	g++10 cplusplus.cpp -o hello
 
 .PHONY:clean
 clean:
