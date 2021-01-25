@@ -1,4 +1,6 @@
-#pragma once
+#ifndef  __COROUTINE_H__
+#define  __COROUTINE_H__
+
 #include <stdio.h>
 #include <ucontext.h>
 #include <unistd.h>
@@ -12,3 +14,5 @@ int main(int argc, const char* argv[]) {
     setcontext(&context);
     return 0;
 }
+
+#endif
