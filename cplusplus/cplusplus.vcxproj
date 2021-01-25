@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="co.cpp" />
     <ClCompile Include="cplusplus.cpp" />
     <ClCompile Include="Makefile" />
   </ItemGroup>
